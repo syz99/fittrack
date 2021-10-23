@@ -1,4 +1,3 @@
-import path from "path";
 import { Container, Link } from "@material-ui/core";
 import { API_TYPE_NAME } from "./AppName";
 import { appUrl } from "../realm.json";
@@ -25,9 +24,9 @@ function MoreInfoItem({ children }) {
 export function MoreInfoTemplateAndDocs() {
   return (
     <MoreInfoItem>
-      <span>Built with the MongoDB Realm {API_TYPE_NAME} Template</span> |{" "}
+      Built by {API_TYPE_NAME} | w/ {" "}
       <Link target="_blank" href="https://docs.mongodb.com/realm">
-        Docs
+        🌿 
       </Link>
     </MoreInfoItem>
   );
